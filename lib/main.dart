@@ -6,9 +6,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Me Faça Uma Pergunta',
       theme: ThemeData(
-        primarySwatch: Colors.teal,
+        primarySwatch: Colors.blue,
       ),
       home: HomePage(),
     );
