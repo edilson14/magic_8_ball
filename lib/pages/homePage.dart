@@ -7,7 +7,10 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     // TODO: implement build
     return Scaffold(
-      appBar: MyAppBar(),
+      appBar: MyAppBar(
+        Text('Ask Me Anything'),
+      ),
+      body: Container(),
     );
   }
 }
